@@ -14,7 +14,7 @@ import java.util.List;
  * @author xtj
  * @since 2021-10-10
  */
-
+//test
 public interface DemoMapper extends BaseMapper<Demo> {
 
     boolean existIdBoolean(@Param("listIds") List<Long> listIds);
