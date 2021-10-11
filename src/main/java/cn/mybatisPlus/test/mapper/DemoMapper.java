@@ -23,6 +23,7 @@ public interface DemoMapper extends BaseMapper<Demo> {
 
     boolean existIdBoolean3(@Param("listIds") List<Long> listIds);
 
+    boolean existIdBoolean4(@Param("listIds") List<Long> listIds);
 
 
 }
