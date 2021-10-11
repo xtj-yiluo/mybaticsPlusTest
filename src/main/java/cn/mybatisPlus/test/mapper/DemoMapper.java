@@ -14,16 +14,12 @@ import java.util.List;
  * @author xtj
  * @since 2021-10-10
  */
-//test
+
 public interface DemoMapper extends BaseMapper<Demo> {
 
     boolean existIdBoolean(@Param("listIds") List<Long> listIds);
 
     boolean existIdBoolean2(@Param("listIds") List<Long> listIds);
-
-    boolean existIdBoolean3(@Param("listIds") List<Long> listIds);
-
-    boolean existIdBoolean4(@Param("listIds") List<Long> listIds);
 
 
 }
